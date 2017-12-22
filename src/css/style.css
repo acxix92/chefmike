@@ -26,6 +26,9 @@
   .section {
     text-align: center;
   }
+  .section .alignl{
+    text-align: left;
+  }
 
   .skillbar {
     cursor: pointer;
@@ -301,6 +304,7 @@
     height:auto;
     overflow:none;
   }
+/*
   .skillbar {
     position:relative;
     display:block;
@@ -371,7 +375,7 @@
     line-height:30px;
     color:#ffffff;
     color:rgba(0, 0, 0, 0.5);
-  }
+  }*/
 
   /* project section */
 
