@@ -215,7 +215,7 @@
     background: linear-gradient(
      rgba(10,10,10, .5), 
      rgba(10,10,10, .5)),
-    url("/src/img/mike_home_blk.gif") no-repeat;
+    url("/img/mike_home_blk.gif") no-repeat;
     display:  table;
     height:  100vh;
     width:  100%;
