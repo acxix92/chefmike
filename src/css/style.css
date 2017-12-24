@@ -14,7 +14,7 @@
   }
 
   h1 {
-    color: #00aced;
+    color: #6AE368;
     font-weight: bold;
   }
 
@@ -133,7 +133,7 @@
   }
 
   .header-links a:hover {
-    color: #00aced !important;
+    color: #6AE368 !important;
   }
 
   /* slide out nav menu styles */
@@ -167,7 +167,7 @@
   }
 
   .nav-links a:hover {
-    color: #00aced;
+    color: #6AE368;
     -webkit-transition: all 0.6s ease-in-out;
     -o-transition: all 0.6s ease-in-out;
     -ms-transition: all 0.6s ease-in-out;
@@ -397,12 +397,12 @@
   }
 
   .fp-controlArrow.fp-next {
-    border-color: transparent transparent transparent #00aced !important;
+    border-color: transparent transparent transparent #6AE368 !important;
     right: 45px !important;
   }
 
   .fp-controlArrow.fp-prev {
-    border-color: transparent #00aced transparent transparent !important;
+    border-color: transparent #6AE368 transparent transparent !important;
     left: 45px !important;
   }
 
@@ -479,10 +479,10 @@
     padding: 12px;
     min-width: 200px;
     border-radius: 2px;
-    border: 2px solid #00aced;
+    border: 2px solid #6AE368;
     text-align: center;
     font-size: 1em;
-    color: #00aced;
+    color: #6AE368;
     background-color: white;
     text-decoration: none;
     text-transform: uppercase;
@@ -490,7 +490,7 @@
   }
 
   #submit:hover {
-    background-color: #00aced;
+    background-color: #6AE368;
     color: white;
     -webkit-transition: all 0.3s ease-out;
     -o-transition: all 0.3s ease-out;
@@ -502,7 +502,7 @@
   /* footer styles */
 
   .footer {
-    background-color: #B2B2B2;
+    background-color: #333333;
     height: 100px;
     padding-top: 10px;
   }
@@ -519,7 +519,7 @@
   }
 
   .social-links a:hover {
-    color: #00aced;
+    color: #6AE368;
     -webkit-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
     -ms-transition: all 0.2s ease-in-out;
@@ -568,7 +568,7 @@
   }
 
   .spinner > div {
-    background-color: #00aced;
+    background-color: #6AE368;
     height: 100%;
     width: 6px;
     display: inline-block;
