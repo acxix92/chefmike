@@ -14,7 +14,7 @@
   }
 
   h1 {
-    color: #00aced;
+    color: #6AE368;
     font-weight: bold;
   }
 
@@ -133,7 +133,7 @@
   }
 
   .header-links a:hover {
-    color: #00aced !important;
+    color: #6AE368 !important;
   }
 
   /* slide out nav menu styles */
@@ -167,7 +167,7 @@
   }
 
   .nav-links a:hover {
-    color: #00aced;
+    color: #6AE368;
     -webkit-transition: all 0.6s ease-in-out;
     -o-transition: all 0.6s ease-in-out;
     -ms-transition: all 0.6s ease-in-out;
@@ -215,7 +215,11 @@
     background: linear-gradient(
      rgba(10,10,10, .5), 
      rgba(10,10,10, .5)),
+<<<<<<< HEAD
     url("/src/img/mike_home_blk.gif") no-repeat;
+=======
+    url("https://lh3.googleusercontent.com/g9G9FhGMFvUvLzW9KS2A521-WxqPSjGRPrvMAeJEon8EtuN772CBmWBsy66aFn14Vr5XeWi0mlsZ2Xq01CQj2U0_NwhI-lm6iveEqvFraU1ezCyBlhIZJNRr0qyMyEgfPTTce2h_jB_4kgck4Un1VOfRKzIGiwXuOCa1ith13KQNs8AAitVl1rM3NhaPI5pjC1y80eTYy1vJHKPDnkBY5mGdPiOLaU1Tx8T0huSWDDC5tiVoj0owqD_iXcpTL7EaphofFxpL5OgVra1JwuKkhA2gHNzld7Pb8LwV-0j9YpTMnWCcdC1KKh4Zz1USa0W5hcM80mpuvD-ZdQ5rek_1sMEOEgwa4ra2bw2_FBk1Dv8sStjmbMijPAkWpHapB1fCw-0gK__wz6rfTlXSCzyCwPsyV0UG4zPrbcohxbxfr2vwyhfmk-I1mMYqxcwXRENvqnBb2G_WC6tCPIDpV7fpFTAjZJ6HYWOFgsJG0j6xuwqeTSwZyn08KKNiGPqeF35KvFkaP0eGJbwVFcKYpACu077kv9-RjLlayIsJkXoljwA3XbVJhtTw3MqTtuFmzxwdJT2KkGylcEP1iUvVtJIPFm066XTroUZs-yLBrpg=w538-h333-no") no-repeat;
+>>>>>>> ee5461d8957755cdb5d4dfdf327d91ad0b1938f4
     display:  table;
     height:  100vh;
     width:  100%;
@@ -397,12 +401,12 @@
   }
 
   .fp-controlArrow.fp-next {
-    border-color: transparent transparent transparent #00aced !important;
+    border-color: transparent transparent transparent #6AE368 !important;
     right: 45px !important;
   }
 
   .fp-controlArrow.fp-prev {
-    border-color: transparent #00aced transparent transparent !important;
+    border-color: transparent #6AE368 transparent transparent !important;
     left: 45px !important;
   }
 
@@ -479,10 +483,10 @@
     padding: 12px;
     min-width: 200px;
     border-radius: 2px;
-    border: 2px solid #00aced;
+    border: 2px solid #6AE368;
     text-align: center;
     font-size: 1em;
-    color: #00aced;
+    color: #6AE368;
     background-color: white;
     text-decoration: none;
     text-transform: uppercase;
@@ -490,7 +494,7 @@
   }
 
   #submit:hover {
-    background-color: #00aced;
+    background-color: #6AE368;
     color: white;
     -webkit-transition: all 0.3s ease-out;
     -o-transition: all 0.3s ease-out;
@@ -502,7 +506,7 @@
   /* footer styles */
 
   .footer {
-    background-color: #B2B2B2;
+    background-color: #333333;
     height: 100px;
     padding-top: 10px;
   }
@@ -519,7 +523,7 @@
   }
 
   .social-links a:hover {
-    color: #00aced;
+    color: #6AE368;
     -webkit-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
     -ms-transition: all 0.2s ease-in-out;
@@ -568,7 +572,7 @@
   }
 
   .spinner > div {
-    background-color: #00aced;
+    background-color: #6AE368;
     height: 100%;
     width: 6px;
     display: inline-block;
