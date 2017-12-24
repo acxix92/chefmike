@@ -191,6 +191,27 @@ $(document).ready(function() {
     });
 
   });*/
+$('.callme').each(function() {
+  var link = $(this).html();
+  $(this).contents().wrap('<a href="tel:1-330-233-2516" target="_blank"></a>');
+});
+
+$('.emailme').each(function() {
+  var link = $(this).html();
+  $(this).contents().wrap('<a href="mailto:mrafidi44@gmail.com" target="_blank"></a>');
+});
+
+$('.tweetme').each(function() {
+  var link = $(this).html();
+  $(this).contents().wrap('<a href="https://twitter.com/search?q=chef%20micahel%20rafidi&src=typd" target="_blank"></a>');
+});
+
+$('.igme').each(function() {
+  var link = $(this).html();
+  $(this).contents().wrap('<a href="https://www.instagram.com/chefmichaelrafidi/" target="_blank"></a>');
+});
+
+
 
   
 
