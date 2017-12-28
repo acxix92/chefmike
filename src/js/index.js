@@ -198,7 +198,7 @@ $('.callme').each(function() {
 
 $('.emailme').each(function() {
   var link = $(this).html();
-  $(this).contents().wrap('<a href="mailto:mrafidi44@gmail.com" target="_blank"></a>');
+  $(this).contents().wrap('<a href="mailto:chefmichaelrafidi@gmail.com" target="_blank"></a>');
 });
 
 $('.tweetme').each(function() {
