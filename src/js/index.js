@@ -203,7 +203,7 @@ $('.emailme').each(function() {
 
 $('.tweetme').each(function() {
   var link = $(this).html();
-  $(this).contents().wrap('<a href="https://twitter.com/search?q=chef%20micahel%20rafidi&src=typd" target="_blank"></a>');
+  $(this).contents().wrap('<a href="https://twitter.com/search?q=chef%20michael%20rafidi&src=typd" target="_blank"></a>');
 });
 
 $('.igme').each(function() {
