@@ -63,8 +63,8 @@ $(document).ready(function() {
     scrollBar: true,
     responsiveWidth: 400,
     navigation: true,
-    navigationTooltips: ['home', 'about', 'portfolio', 'contact', 'connect'],
-    anchors: ['home', 'about', 'portfolio', 'contact', 'connect'],
+    navigationTooltips: ['home', 'about', 'projects', 'press', 'events', 'contact', 'connect'],
+    anchors: ['home', 'about', 'projects', 'contact', 'press', 'events', 'connect'],
     menu: '#myMenu',
     fitToSection: false,
 
@@ -119,8 +119,16 @@ $(document).ready(function() {
     $.fn.fullpage.moveTo(3);
   });
 
-  $(document).on('click', '#contact', function(){
+  $(document).on('click', '#press', function(){
     $.fn.fullpage.moveTo(4);
+  });
+
+  $(document).on('click', '#events', function(){
+    $.fn.fullpage.moveTo(5);
+  });
+
+  $(document).on('click', '#contact', function(){
+    $.fn.fullpage.moveTo(6);
   });
 
   // smooth scrolling
