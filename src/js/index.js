@@ -64,7 +64,7 @@ $(document).ready(function() {
     responsiveWidth: 400,
     navigation: true,
     navigationTooltips: ['home', 'about', 'projects', 'press', 'events', 'contact', 'connect'],
-    anchors: ['home', 'about', 'projects', 'contact', 'press', 'events', 'connect'],
+    anchors: ['home', 'about', 'projects', 'press', 'events', 'contact', 'connect'],
     menu: '#myMenu',
     fitToSection: false,
 
