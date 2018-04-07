@@ -13,7 +13,7 @@
     text-decoration: none !important;
   }
 
-  h1 {
+  .h-one {
     color: #6AE368;
     font-weight: bold;
   }
@@ -411,7 +411,7 @@
       max-width: 300px;
     }
 
-    .aboutme h1 {
+    .aboutme .h-one {
       font-size: 28px;
     }
 
