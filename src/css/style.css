@@ -214,7 +214,7 @@
      rgba(10,10,10, .5), 
      rgba(10,10,10, .5)),
 
-    url("https://media.giphy.com/media/l49JOVXh2E5pV8cGQ/giphy.gif") no-repeat;
+    url("https://s3.amazonaws.com/chefmike/mike-home-opt-final.gif") no-repeat;
     display:  table;
     height:  100vh;
     width:  100%;
