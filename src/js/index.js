@@ -76,7 +76,7 @@ $(document).ready(function() {
       if(index==1){
         /* add opacity to arrow */
         $('.fa-chevron-down').each(function(){
-          $(this).css('opacity','1')
+          $(this).css('opacity','2')
         });
         $('.header-links a').each(function(){
           $(this).css('color','white')
