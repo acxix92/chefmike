@@ -63,8 +63,8 @@ $(document).ready(function() {
     scrollBar: true,
     responsiveWidth: 400,
     navigation: true,
-    navigationTooltips: ['home', 'about', 'portfolio', 'contact', 'connect'],
-    anchors: ['home', 'about', 'portfolio', 'contact', 'connect'],
+    navigationTooltips: ['home', 'about', 'projects', 'press', 'events', 'contact', 'connect'],
+    anchors: ['home', 'about', 'projects', 'press', 'events', 'contact', 'connect'],
     menu: '#myMenu',
     fitToSection: false,
 
@@ -76,7 +76,7 @@ $(document).ready(function() {
       if(index==1){
         /* add opacity to arrow */
         $('.fa-chevron-down').each(function(){
-          $(this).css('opacity','1')
+          $(this).css('opacity','2')
         });
         $('.header-links a').each(function(){
           $(this).css('color','white')
@@ -119,8 +119,16 @@ $(document).ready(function() {
     $.fn.fullpage.moveTo(3);
   });
 
-  $(document).on('click', '#contact', function(){
+  $(document).on('click', '#press', function(){
     $.fn.fullpage.moveTo(4);
+  });
+
+  $(document).on('click', '#events', function(){
+    $.fn.fullpage.moveTo(5);
+  });
+
+  $(document).on('click', '#contact', function(){
+    $.fn.fullpage.moveTo(6);
   });
 
   // smooth scrolling
@@ -139,58 +147,7 @@ $(document).ready(function() {
     });
   });
 
-  //ajax form
-  /*$(function() {
-
-    // Get the form.
-    var form = $('#ajax-contact');
-
-    // Get the messages div.
-    var formMessages = $('#form-messages');
-
-    // Set up an event listener for the contact form.
-    $(form).submit(function(e) {
-      // Stop the browser from submitting the form.
-      e.preventDefault();
-
-      // Serialize the form data.
-      var formData = $(form).serialize();
-
-      // Submit the form using AJAX.
-      $.ajax({
-        type: 'POST',
-        url: $(form).attr('action'),
-        data: formData
-      })
-      .done(function(response) {
-        // Make sure that the formMessages div has the 'success' class.
-        $(formMessages).removeClass('error');
-        $(formMessages).addClass('success');
-
-        // Set the message text.
-        $(formMessages).text(response);
-
-        // Clear the form.
-        $('#name').val('');
-        $('#email').val('');
-        $('#message').val('');
-      })
-      .fail(function(data) {
-        // Make sure that the formMessages div has the 'error' class.
-        $(formMessages).removeClass('success');
-        $(formMessages).addClass('error');
-
-        // Set the message text.
-        if (data.responseText !== '') {
-          $(formMessages).text(data.responseText);
-        } else {
-          $(formMessages).text('Oops! An error occured and your message could not be sent.');
-        }
-      });
-
-    });
-
-  });*/
+ 
 $('.callme').each(function() {
   var link = $(this).html();
   $(this).contents().wrap('<a href="tel:1-330-233-2516" target="_blank"></a>');
@@ -198,7 +155,7 @@ $('.callme').each(function() {
 
 $('.emailme').each(function() {
   var link = $(this).html();
-  $(this).contents().wrap('<a href="mailto:chefmichaelrafidi@gmail.com" target="_blank"></a>');
+  $(this).contents().wrap('<a href="mailto:chefmichael@michaelrafidi.com" target="_blank"></a>');
 });
 
 $('.tweetme').each(function() {
