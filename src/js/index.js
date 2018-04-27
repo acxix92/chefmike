@@ -63,8 +63,8 @@ $(document).ready(function() {
     scrollBar: true,
     responsiveWidth: 400,
     navigation: true,
-    navigationTooltips: ['home', 'about', 'projects', 'press', 'events', 'thefarm', 'contact', 'connect'],
-    anchors: ['home', 'about', 'projects', 'press', 'events', 'thefarm', 'contact', 'connect'],
+    navigationTooltips: ['home', 'about', 'projects', 'press', 'events', 'contact', 'connect'],
+    anchors: ['home', 'about', 'projects', 'press', 'events', 'contact', 'connect'],
     menu: '#myMenu',
     fitToSection: false,
 
@@ -127,12 +127,8 @@ $(document).ready(function() {
     $.fn.fullpage.moveTo(5);
   });
 
-  $(document).on('click', '#thefarm', function(){
-    $.fn.fullpage.moveTo(6);
-  });
-
   $(document).on('click', '#contact', function(){
-    $.fn.fullpage.moveTo(7);
+    $.fn.fullpage.moveTo(6);
   });
 
   // smooth scrolling
