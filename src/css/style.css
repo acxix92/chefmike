@@ -329,37 +329,6 @@
     background: rgba(0, 0, 0, 0.62) !important;
   }
 
- 
-
-
-  /* contact us styles */
-
-  .fa-paper-plane {
-    color: #484848;
-  }
-
-  /* paper plane shake on hover */
-
-  .plane-animated {
-    animation-duration: 6s;
-    animation-fill-mode: both;
-    animation-iteration-count: infinite;
-    animation-play-state: paused;
-  }
-
-  .fa-paper-plane:hover {
-  /* Toggle our animation play state to running when we are hovering over our sticker */
-  animation-play-state: running;
-}
-
-    @keyframes shake {
-    0%, 100% {transform: translateX(0);}
-    10%, 30%, 50%, 70%, 90% {transform: translateX(-10px);}
-    20%, 40%, 60%, 80% {transform: translateX(10px);}
-  }
-    .shake {
-      animation-name: shake;
-    }
 
 
   /* footer styles */
@@ -408,11 +377,11 @@
   @media (min-width: 100px) and (max-width: 400px) {
 
     .content {
-      max-width: 300px;
+      max-width: 800px;
     }
 
     .aboutme .h-one {
-      font-size: 28px;
+      font-size: 32px;
     }
 
   }
