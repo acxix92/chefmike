@@ -61,16 +61,19 @@ $(document).ready(function() {
 
   $('#fullpage').fullpage({
     scrollBar: true,
-    responsiveWidth: 400,
+    responsiveWidth: 900,
     navigation: true,
-    navigationTooltips: ['home', 'about', 'projects', 'press', 'events', 'contact', 'connect'],
-    anchors: ['home', 'about', 'projects', 'press', 'events', 'contact', 'connect'],
+    navigationTooltips: ['home', 'about', 'projects', 'press', 'events', 'thefarm', 'contact', 'connect'],
+    anchors: ['home', 'about', 'projects', 'press', 'events', 'thefarm', 'contact', 'connect'],
     menu: '#myMenu',
     fitToSection: false,
+    // autoScrolling: false, // maybe use this, test out first
+    normalScrollElements: '.scrollme',
+    scrollOverflowReset: true,
 
     afterLoad: function ( anchorLink, index){
       var loadedSection = $(this);
-
+  
 
       //using index
       if(index==1){
@@ -111,7 +114,7 @@ $(document).ready(function() {
   });
 
   // fullpage.js link navigation
-  $(document).on('click', '#skills', function(){
+  $(document).on('click', '#about', function(){
     $.fn.fullpage.moveTo(2);
   });
 
@@ -127,8 +130,12 @@ $(document).ready(function() {
     $.fn.fullpage.moveTo(5);
   });
 
-  $(document).on('click', '#contact', function(){
+  $(document).on('click', '#thefarm', function(){
     $.fn.fullpage.moveTo(6);
+  });
+
+  $(document).on('click', '#contact', function(){
+    $.fn.fullpage.moveTo(7);
   });
 
   // smooth scrolling
