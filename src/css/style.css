@@ -4,9 +4,8 @@
     font-family: 'Raleway', sans-serif !important;
   }
 
-  ul
-  {
-      list-style-type: none;
+  ul {
+    list-style-type: none;
   }
 
   a {
@@ -26,11 +25,11 @@
   .section {
     text-align: center;
   }
-  .section .alignl{
+
+  .section .alignl {
     text-align: left;
   }
 
- 
 
   .hide {
     display: none;
@@ -67,7 +66,8 @@
     position: fixed;
     background-color: #000;
     opacity: .9;
-     right: -285px;  /* start off behind the scenes */
+    right: -285px;
+    /* start off behind the scenes */
     -webkit-font-smoothing: antialiased;
     position: fixed;
     width: 285px;
@@ -112,9 +112,9 @@
   }
 
   .header-links {
-  position: fixed;
-  width: 100%;
-  z-index: 500;
+    position: fixed;
+    width: 100%;
+    z-index: 500;
   }
 
   .header-links li {
@@ -181,12 +181,12 @@
 
   .header-links a::after {
     display: block;
-      margin: 0 auto;
+    margin: 0 auto;
     margin-top: 5px;
     width: 0;
-      height: 2px;
-      background-color: #fff;
-      content: '';
+    height: 2px;
+    background-color: #fff;
+    content: '';
     opacity: 0;
     -webkit-transition: width 0.6s, opacity 0.8s;
     -moz-transition: width 0.6s, opacity 0.8s;
@@ -208,16 +208,15 @@
     padding: 1px 1px 5px 5px;
   }
 
-/*gif on homepage */
+  /*gif on homepage */
   .aboutme {
-    background: linear-gradient(
-     rgba(10,10,10, .5), 
-     rgba(10,10,10, .5)),
+    background: linear-gradient(rgba(10, 10, 10, .5),
+      rgba(10, 10, 10, .5)),
 
-    url("https://s3.amazonaws.com/chefmike/mike-home-opt-final.gif") no-repeat;
-    display:  table;
-    height:  100vh;
-    width:  100%;
+      url("https://s3.amazonaws.com/chefmike/michael-lee-rafidi.gif") no-repeat;
+    display: table;
+    height: 100vh;
+    width: 100%;
     background-size: cover !important;
     margin-right: auto;
     margin-left: auto;
@@ -246,14 +245,21 @@
   /* Scroll down indicator (bouncing) */
 
   @-webkit-keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
       -webkit-transform: translateY(0);
       transform: translateX(0);
     }
+
     40% {
       -webkit-transform: translateY(-30px);
       transform: translateY(-30px);
     }
+
     60% {
       -webkit-transform: translateY(-15px);
       transform: translateY(-15px);
@@ -261,26 +267,40 @@
   }
 
   @-moz-keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
       transform: translateY(0);
     }
+
     40% {
       transform: translateY(-30px);
     }
+
     60% {
       transform: translateY(-15px);
     }
   }
 
   @keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
       -ms-transform: translateY(0);
       transform: translateY(0);
     }
+
     40% {
       -ms-transform: translateY(-30px);
       transform: translateY(-30px);
     }
+
     60% {
       -ms-transform: translateY(-15px);
       transform: translateY(-15px);
@@ -325,7 +345,8 @@
     left: 45px !important;
   }
 
-  #fp-nav ul li a span, .fp-slidesNav ul li a span{
+  #fp-nav ul li a span,
+  .fp-slidesNav ul li a span {
     background: rgba(0, 0, 0, 0.62) !important;
   }
 
@@ -339,13 +360,13 @@
     padding-top: 10px;
   }
 
-  .footer p{
+  .footer p {
     color: white;
     font-weight: bold;
     font-size: 16px;
   }
 
-  .social-links a{
+  .social-links a {
     color: white;
     padding: 0px 5px 0px 5px;
   }
@@ -369,7 +390,7 @@
 
     .header-links {
       display: none;
-    }   
+    }
   }
 
   /* mobile styles */
@@ -389,65 +410,65 @@
 
 
 
-/*contact me module */
-.bt_wrap{
-  display:inline-block;
-  width:auto;
-  height:auto;
-  background:#16161a;
-  width:100px;
-  height:100px;
-  cursor:pointer;
+  /*contact me module */
+  .bt_wrap {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    background: #16161a;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
 
-  perspective: 200px;
-  transition:background 0.2s ease-out;
-}
+    perspective: 200px;
+    transition: background 0.2s ease-out;
+  }
 
-.box{
-  position:absolute;
+  .box {
+    position: absolute;
 
-  perspective-origin: 50px 50px;
-  transform-origin: 50px 50px;
-  transition:transform 0.2s ease-out;
-  transform-style: preserve-3d;
-}
+    perspective-origin: 50px 50px;
+    transform-origin: 50px 50px;
+    transition: transform 0.2s ease-out;
+    transform-style: preserve-3d;
+  }
 
-.icon,.icon2{
-  position:absolute;
-  top:0;
-  left:20px;
-  margin-top:20px;
-  background:#16161a;
-  color:#ffffff;
-  width:60px;
-  height:60px;
-  font-size:2em;
-  line-height:60px;
+  .icon,
+  .icon2 {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    margin-top: 20px;
+    background: #16161a;
+    color: #ffffff;
+    width: 60px;
+    height: 60px;
+    font-size: 2em;
+    line-height: 60px;
 
-  transition:background 0.2s ease-out;
-  transform: translate3d(0px,0px,30px) rotateY(0deg);
-}
+    transition: background 0.2s ease-out;
+    transform: translate3d(0px, 0px, 30px) rotateY(0deg);
+  }
 
-.icon2{
-  background:#464646;
+  .icon2 {
+    background: #464646;
 
-  transform: translate3d(29px,0px,0px) rotateY(90deg);
-  transition:background 0.2s ease-out;
-}
+    transform: translate3d(29px, 0px, 0px) rotateY(90deg);
+    transition: background 0.2s ease-out;
+  }
 
-.bt_wrap:hover{
-  background:#6AE368;
-}
+  .bt_wrap:hover {
+    background: #6AE368;
+  }
 
-.bt_wrap:hover .icon{
-  background:#464646;
-}
+  .bt_wrap:hover .icon {
+    background: #464646;
+  }
 
-.bt_wrap:hover .icon2{
-  background:#16161a;
-}
+  .bt_wrap:hover .icon2 {
+    background: #16161a;
+  }
 
-.bt_wrap:hover .box{
-  transform: rotateY(-90deg);
-}
-
+  .bt_wrap:hover .box {
+    transform: rotateY(-90deg);
+  }
