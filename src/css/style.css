@@ -1,7 +1,7 @@
   /* general styles */
 
   body {
-    font-family: 'Raleway', sans-serif !important;
+    font-family: 'Raleway', sans-serif;
   }
 
   ul {
@@ -14,12 +14,37 @@
 
   .h-one {
     color: #6AE368;
-    font-weight: bold;
+    font-weight: 500;
   }
 
   p {
-    font-size: 20px;
+    font-size: 18px;
     color: #484848;
+  }
+
+  .pgraph-txt {
+    font-size: 15px
+  }
+
+  .mlr-name {
+    color: #d8d8d8;
+    letter-spacing: 4px;
+  }
+
+  .off-white {
+    color: #f2f2f2;
+  }
+
+  .open-sans {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .open-sans-c {
+    font-family: 'Open Sans Condensed', sans-serif;
+  }
+
+  .noto {
+    font-family: 'Noto Serif TC', serif;
   }
 
   .section {
@@ -472,3 +497,31 @@
   .bt_wrap:hover .box {
     transform: rotateY(-90deg);
   }
+
+  /* .tab-input {
+    display: none;
+  }
+
+  .tab-item {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transform: translateY(10px);
+    transform: translateY(10px);
+  }
+
+  .tab-input:checked+.tab-item {
+    position: static;
+    visibility: visible;
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    transition: 0.3s ease-in-out;
+  }
+
+  @media (min-width: 40rem) {
+    .tab-item {
+      font-size: 1.2rem;
+      line-height: 2;
+    }
+  } */

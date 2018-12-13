@@ -1,2 +1,2 @@
 # chefmike
-Executive Chef MIchael Rafidi
+Executive Chef Michael Rafidi
