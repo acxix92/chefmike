@@ -2,6 +2,7 @@
 
   body {
     font-family: 'Raleway', sans-serif;
+    background-color: #F8FAFA;
   }
 
   ul {
@@ -14,7 +15,8 @@
 
   .h-one {
     color: #6AE368;
-    font-weight: 500;
+    font-weight: 300;
+    letter-spacing: 1.5px;
   }
 
   p {
@@ -118,7 +120,7 @@
 
   .fa-bars {
     display: none !important;
-    color: #B2B2B2;
+    color: rgb(40, 40, 40);
     float: right;
     padding: 20px;
     position: fixed;
@@ -128,7 +130,7 @@
   }
 
   .fa-times {
-    color: #B2B2B2;
+    color: rgb(40, 40, 40);
     float: right;
     padding: 20px;
     right: 0;
@@ -146,8 +148,9 @@
     color: white;
     display: inline;
     float: right;
-    padding: 15px;
-    font-size: 16px;
+    padding: 8px;
+    font-size: 15px;
+    letter-spacing: 1.5px;
   }
 
   .header-links a {
@@ -174,16 +177,16 @@
 
   .nav-links ul {
     margin-top: 15%;
-    text-align: center;
+    text-align: left;
     padding-top: 10%;
   }
 
 
   .nav-links a {
-    color: #FFFFFF;
-    font-size: 30px;
+    color: #ddd;
+    font-size: 22px;
     line-height: 2.5;
-    font-weight: bold;
+    font-weight: 500;
     text-decoration: none;
     margin-left: auto;
     margin-right: auto;
@@ -257,7 +260,7 @@
 
 
   .fa-chevron-down {
-    color: #fff !important;
+    color: rgb(46, 46, 46) !important;
     bottom: 10px;
     margin-left: -30px;
     cursor: pointer;

@@ -91,7 +91,7 @@ $(document).ready(function () {
         $('.header-links a').each(function () {
           $(this).css('color', 'black')
         });
-        $('.header-links').css('background-color', 'white');
+        $('.header-links').css('background-color', 'transparent');
       }
 
       //using index
@@ -134,6 +134,11 @@ $(document).ready(function () {
     $.fn.fullpage.moveTo(6);
   });
 
+  $(document).on('click', '#contact', function () {
+    $.fn.fullpage.moveTo(7);
+  });
+
+
   // smooth scrolling
   $(function () {
     $('a[href*=#]:not([href=#])').click(function () {
@@ -158,7 +163,7 @@ $(document).ready(function () {
 
   $('.emailme').each(function () {
     var link = $(this).html();
-    $(this).contents().wrap('<a href="mailto:chefmichael@michaelrafidi.com" target="_blank"></a>');
+    $(this).contents().wrap('<a href="mailto:mlr@albidc.com" target="_blank"></a>');
   });
 
   $('.tweetme').each(function () {
