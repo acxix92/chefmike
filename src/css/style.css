@@ -264,6 +264,7 @@
 
   .socialIcons li a:hover {
     color: #fff;
+
   }
 
   .socialIcons li a.ig:hover {
@@ -278,16 +279,8 @@
     background: #d85131;
   }
 
-  .socialIcons li a.linkedin:hover {
-    background: #017eb4;
-  }
-
-  .socialIcons li a.pinterest:hover {
-    background: #d20003;
-  }
-
-  .socialIcons li a.youtube:hover {
-    background: #c8312b;
+  .socialIcons li a.albi:hover {
+    background: #FCB817;
   }
 
 
