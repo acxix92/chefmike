@@ -229,12 +229,62 @@
 
   /* main header section */
 
-  .opaque-bg {
+  /* .opaque-bg {
     margin-left: auto;
     margin-right: auto;
     max-width: 380px;
     padding: 1px 1px 5px 5px;
+  } */
+
+  .centered-logo {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
   }
+
+  .socialIcons {
+    font-size: 24px;
+  }
+
+  .socialIcons li {
+    display: inline-block;
+    float: left;
+    text-align: center;
+    line-height: 40px;
+  }
+
+  .socialIcons li a {
+    color: #000;
+    display: block;
+    width: 40px;
+    height: 40px;
+  }
+
+  .socialIcons li a:hover {
+    color: #fff;
+
+  }
+
+  .socialIcons li a.ig:hover {
+    background: #d5008f;
+  }
+
+  .socialIcons li a.twitter:hover {
+    background: #00aced;
+  }
+
+  .socialIcons li a.google:hover {
+    background: #d85131;
+  }
+
+  .socialIcons li a.albi:hover {
+    background: #FCB817;
+  }
+
+
+
 
   /*gif on homepage */
   .aboutme {
