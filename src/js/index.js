@@ -173,8 +173,16 @@ $(document).ready(function () {
     $(this).contents().wrap('<a href="https://www.instagram.com/chefmichaelrafidi/" target="_blank"></a>');
   });
 
-
-
+  $(window).bind('scroll', function() {
+    if ($(window).scrollTop() > 450) {
+        $('#mlr-logo,fade-in').hide();
+    }
+    else {
+        $('#mlr-logo').show();
+    }
+});
 
 
 });
+
+
